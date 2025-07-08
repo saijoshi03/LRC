@@ -1,58 +1,70 @@
-Basic RLC Circuit Simulation – Falstad
+# 🔌 Basic RLC Circuit Simulation – Falstad
 
-This repository presents a simple RLC (Resistor–Inductor–Capacitor) circuit built using the Falstad Circuit Simulator. It showcases essential electrical behaviors such as resonance, impedance, and damping through classic analog components.
-🧰 Components Included
-Symbol	Component	Purpose
-⚡	Voltage Source	AC/DC power supply
-🌀	Inductor (L)	Stores energy in magnetic field
-⚫	Capacitor (C)	Stores energy in electric field
-🟤	Resistor (R)	Controls current flow, adds damping
-⏚	Ground	Circuit reference point
-🔬 Purpose of the Circuit
+This repository showcases a simple **RLC circuit** (Resistor–Inductor–Capacitor) created using the [Falstad Circuit Simulator](https://www.falstad.com/circuit/). It demonstrates key electrical concepts like **resonance**, **damping**, and **time constants** through an interactive simulation.
 
-This circuit is ideal for studying:
+---
 
-    🔁 Resonance between inductance and capacitance
+## 🧰 Components Used
 
-    ⏱️ Time constant effects in energy storage/release
+| Symbol | Component       | Description                           |
+|--------|------------------|---------------------------------------|
+| ⚡     | Voltage Source    | AC power supply (40 Hz)               |
+| 🌀     | Inductor (L)      | 1 H – stores energy in magnetic field |
+| ⚫     | Capacitor (C)     | 10 µF – stores energy in electric field |
+| 🟤     | Resistor (R)      | 1 kΩ – limits current and adds damping |
+| ⏚     | Ground            | Reference node                        |
 
-    🧯 Damping behavior via resistance
+---
 
-    📈 Visualization of current and voltage changes over time
+## 🧪 Circuit Simulation Overview
 
-▶️ How to Run the Simulation
+This circuit simulates an RLC loop responding to an AC source. The behavior includes:
 
-    Visit: https://www.falstad.com/circuit
+- 🔁 **Oscillation** due to L and C
+- ⏱️ **Time constant** from R and C
+- ⚡ **Current flow** visualization using Falstad's yellow dot animation
 
-    Navigate to: File → Import From Text...
+---
 
-    Copy and paste the contents of circuit.txt from this repository
+## ▶️ How to Run the Simulation
 
-    Click OK to view and simulate the circuit
+1. Open the simulator at 👉 [https://www.falstad.com/circuit](https://www.falstad.com/circuit)
+2. Click **File > Import From Text...**
+3. Copy the contents of `circuit.txt` from this repo
+4. Click **OK** to load and simulate the circuit
 
-🔧 Suggested Customizations
+---
 
-You can expand this project by adding:
+## 🛠️ Customization Ideas
 
-    🔘 Switch to simulate RC charging/discharging
+You can modify or extend the simulation by:
 
-    ➕ Diode to study rectifier behavior
+- 🔘 Adding a **switch** to create an RC charging/discharging demo
+- ➕ Inserting a **diode** for rectifier behavior
+- 🔄 Switching to **DC** to explore transient effects
+- 🧠 Building **logic circuits** using Falstad’s digital components
 
-    🧭 AC vs DC sources for waveform comparison
+---
 
-    🖥️ Logic Gates or Flip-Flops for a digital variant
+## 📂 Files Included
 
-📁 Files Included
+- `circuit.txt` – Falstad circuit file (RLC configuration)
+- `README.md` – Project documentation
+- *(Optional)* `circuit.png` – Circuit diagram screenshot
 
-    circuit.txt – Falstad-compatible circuit definition
+---
 
-    README.md – Documentation and usage guide
+## 📚 References
 
-    (Optional) circuit.png – Screenshot or schematic preview
+- 🔗 [Falstad Circuit Simulator](https://www.falstad.com/circuit)
+- 📘 [RLC Circuit – Wikipedia](https://en.wikipedia.org/wiki/RLC_circuit)
 
-📚 Reference
+---
 
-    Falstad Simulator: https://www.falstad.com/circuit
+## 📸 Preview
 
-    Electronic Basics: RLC Circuits – Wikipedia
+![Circuit Screenshot](circuit.png)
 
+---
+
+> Created for learning and experimentation. Feel free to fork and modify!
