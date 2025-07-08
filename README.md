@@ -1,4 +1,4 @@
-# 🔌 Basic RLC Circuit Simulation – Falstad
+#  Basic RLC Circuit Simulation – Falstad
 
 This repository showcases a simple **RLC circuit** (Resistor–Inductor–Capacitor) created using the [Falstad Circuit Simulator](https://www.falstad.com/circuit/). It demonstrates key electrical concepts like **resonance**, **damping**, and **time constants** through an interactive simulation.
 
